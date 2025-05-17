@@ -235,7 +235,7 @@ fn main() {
         .add_route(HNetAddr::parse("*:*:*:*:*").unwrap(), "wan");
 
     // Try to route
-    subnet_router_atnt_1
+    subnet_router_mgts_1
         .borrow_mut()
         .route_to(&HNetAddr::parse("NA:US:NTNT:5723:0C8F").unwrap());
 }
