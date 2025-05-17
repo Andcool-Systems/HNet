@@ -228,11 +228,11 @@ fn main() {
 
     router_ru
         .borrow_mut()
-        .add_route(HNetAddr::parse("*:*:*:*:*").unwrap(), "wan");
+        .add_route(HNetAddr::parse("NA:US:*:*:*").unwrap(), "wan");
 
     router_usa
         .borrow_mut()
-        .add_route(HNetAddr::parse("*:*:*:*:*").unwrap(), "wan");
+        .add_route(HNetAddr::parse("EU:RU:*:*:*").unwrap(), "wan");
 
     // Try to route
     subnet_router_mgts_1
