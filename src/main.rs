@@ -202,7 +202,7 @@ fn main() {
         .borrow_mut()
         .add_route(HNetAddr::parse("*:*:*:*:*").unwrap(), "wan");
 
-    subnet_router_alt_1
+    subnet_router_alt_2
         .borrow_mut()
         .add_route(HNetAddr::parse("*:*:*:*:*").unwrap(), "wan");
 
